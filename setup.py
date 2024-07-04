@@ -16,10 +16,10 @@ def get_requirements(file_path:str)->List[str]:
     return requirements"""
 
 setup(
-    name='DimondPricePrediction',
+    name='zomato_rating_prediction',
     version='0.0.1',
     author='Ayan Biswas',
     author_email='biswas.ayan1997@gmail.com',
-    install_requires=["scikit-learn","pandas","numpy"],
+    install_requires=["scikit-learn","pandas","seaborn","numpy"],
     packages=find_packages()
 )
